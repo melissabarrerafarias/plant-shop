@@ -1,0 +1,11 @@
+body, html {
+    background-color: var(--teeth);
+}
+
+:root {
+    --ghost-white: #F0EFF4; 
+    --teeth: #EEF0F2
+}
+.navbar-styles {
+    background-color: transparent;
+}
