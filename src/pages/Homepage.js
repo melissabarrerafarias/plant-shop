@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../homepage.css';
 
 import plant1 from '../assets/images/plant1.jpg';
@@ -26,30 +25,90 @@ import plant20 from '../assets/images/plant20.jpg';
 function Homepage() {
 
     return (
-        <div className="container">
+        <div className="container plants-homepage">
             <div className="grid">
-                <div className="grid-item grid-item--width4"><img src={plant2} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant3} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant5} /></div>
-                <div class="grid-item grid-item--width4"><img src={plant1} /></div>
-                <div className="grid-item grid-item--width3"><img src={plant4} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant6} /></div>
-                <div className="grid-item grid-item--width3"><img src={plant7} /></div>
-                <div class="grid-item grid-item--width4"><img src={plant8} /></div>
+                <div className="grid-item grid-item--width4">
+                    <img src={plant2} />
+                    <p className="plant-name">Jade Pothos</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant3} />
+                    <p className="plant-name">Scindapsus Picuts</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant5} />
+                    <p className="plant-name">Philodendron Birkin</p>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <img src={plant1} />
+                    <p className="plant-name">Tulip</p>
+                </div>
+                <div className="grid-item grid-item--width3">
+                    <img src={plant4} />
+                    <p className="plant-name">String of Heart</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant6} />
+                    <p className="plant-name">Red Cherry Philodendron</p>
+                </div>
+                <div className="grid-item grid-item--width3">
+                    <img src={plant7} />
+                    <p className="plant-name">Birds Nest Fern</p>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <img src={plant8} />
+                    <p className="plant-name">Jade Pothos</p>
+                </div>
 
-                <div class="grid-item grid-item--width3"><img src={plant10} /></div>
-                <div class="grid-item grid-item--width4"><img src={plant11} /></div>
-                <div class="grid-item grid-item--width4"><img src={plant9} /></div>
-                <div className="grid-item grid-item--width3"><img src={plant12} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant14} /></div>
-                <div className="grid-item grid-item--width4"><img src={plant13} /></div>
-                
-                <div class="grid-item grid-item--width3"><img src={plant15} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant16} /></div>
-                <div class="grid-item grid-item--width4"><img src={plant17} /></div>
-                <div className="grid-item grid-item--width3"><img src={plant18} /></div>
-                <div class="grid-item grid-item--width3"><img src={plant19} /></div>
-                <div className="grid-item grid-item--width4"><img src={plant20} /></div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant10} />
+                    <p className="plant-name">Yellow Daisy</p>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <img src={plant11} />
+                    <p className="plant-name">London Cactus</p>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <img src={plant9} />
+                    <p className="plant-name">Bonsai</p>
+                </div>
+                <div className="grid-item grid-item--width3">
+                    <img src={plant12} />
+                    <p className="plant-name">Succulent</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant14} />
+                    <p className="plant-name">Monstera Minima</p>
+                </div>
+                <div className="grid-item grid-item--width4">
+                    <img src={plant13} />
+                    <p className="plant-name">Succulent</p>
+                </div>
+
+                <div class="grid-item grid-item--width3">
+                    <img src={plant15} />
+                    <p className="plant-name">Cast Iron Plant</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant16} />
+                    <p className="plant-name">Philodendron Scandens</p>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <img src={plant17} />
+                    <p className="plant-name">Golden Pothos</p>
+                </div>
+                <div className="grid-item grid-item--width3">
+                    <img src={plant18} />
+                    <p className="plant-name">Scindapsus Pictus</p>
+                </div>
+                <div class="grid-item grid-item--width3">
+                    <img src={plant19} />
+                    <p className="plant-name">Schefflera</p>
+                </div>
+                <div className="grid-item grid-item--width4">
+                    <img src={plant20} />
+                    <p className="plant-name">Schefflera</p>
+                </div>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import React from 'react';
 
@@ -8,10 +9,14 @@ import Navbar from './components/Nav';
 
 function App() {
   return (
-    <div>
-       <Navbar />
-      <Homepage />
-     </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+        <Route exact path = "/" component = {Homepage}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
