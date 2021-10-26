@@ -46,90 +46,43 @@ function Contact() {
                                 </select>
                             </div>
 
-                            <h4>Which plant(s) will you be purchasing?</h4>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Tulip</label>
+
+                            {/* <h4 className = "mt-4">Which plant will you be purchasing?</h4> */}
+                            <div class="mb-3">
+                                <label for="time">Choose a plant: </label>
+                                <select name="time" id="time">
+                                    <option value="Tulip">Tulip</option>
+                                    <option value="Jade Pothos">Jade Pothos</option>
+                                    <option value="Scindapsus Picuts">Scindapsus Picuts</option>
+                                    <option value="String of Heart">String of Heart</option>
+                                    <option value="Philodendron Birkin">Philodendron Birkin</option>
+                                    <option value="Red Cherry Philodendron">Red Cherry Philodendron</option>
+                                    <option value="Birds Nest Fern">Birds Nest Fern</option>
+                                    <option value="Bonsai">Bonsai</option>
+                                    <option value="Yellow Daisy">Yellow Daisy</option>
+                                    <option value="London Cactus">London Cactus</option>
+                                    <option value="Succulent">Succulent</option>
+                                    <option value="Monstera Minima">Monstera Minima</option>
+                                    <option value="Cast Iron Plant">Cast Iron Plant</option>
+                                    <option value="Philodendron Scandens">Philodendron Scandens</option>
+                                    <option value="Schefflera">Schefflera</option>
+                                    <option value="Golden Pothos">Golden Pothos</option>
+                                </select>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Jade Pothos</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Scindapsus Picuts</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">String of Heart</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Philodendron Birkin</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Red Cherry Philodendron</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Birds Nest Fern</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Bonsai</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Yellow Daisy</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">London Cactus</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Succulent</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Monstera Minima</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Cast Iron Plant</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Philodendron Scandens</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Schefflera</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">Golden Pothos</label>
-                            </div>
-                            <div className="text-center mb-5">
-                                <button type="submit" class="btn submit-btn mt-3">Submit Form</button>
-                            </div>
+
+                            <button type="submit" class="btn submit-btn mt-3">Order</button>
+
                         </form>
                     </div>
                     <div className="col-md-6 text-center">
                         <h2>Contact Us</h2>
                         <div className="call-us">
-                            <p className = "mt-2"> Call us at <a href="tel:999-999-9999">999-999-9999 </a></p>
+                            <p className="mt-2"> Call us at <a href="tel:999-999-9999">999-999-9999 </a></p>
                             <p> or email us at <a href="mailto:penelopeplants@gmail.com">penelopeplants@gmail.com</a> </p>
                             <h4 className="mb-2 mt-5">Business Hours</h4>
                             <p>Monday-Saturday: 10am - 5pm</p>
                             <p>Sunday: Not Open</p>
                         </div>
-
-                        <div className="hours">
-
-                        </div>
-
                     </div>
                 </div>
             </div>

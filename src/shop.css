@@ -19,6 +19,13 @@
     font-family: 'Noto Serif Display', serif;
 }
 
+.plant-name-shop {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5); 
+    font-size: 20px; 
+    margin-top: 5px
+}
+
 @media (max-width: 1399.98px) {
     .plant-images-container {
         min-height: 650px; 
