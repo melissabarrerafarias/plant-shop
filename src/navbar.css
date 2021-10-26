@@ -1,12 +1,10 @@
-body {
-    background-color: var(black);
-  }
-  
-  :root {
+ :root {
     --ghost-white: #F0EFF4; 
     --teeth: #EEF0F2
   }
 
 .navbar-styles {
     background-color: transparent;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold
 }

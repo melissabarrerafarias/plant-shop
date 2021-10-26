@@ -1,6 +1,6 @@
 import React from 'react';
-
-import '../shop.css'; 
+import Fade from 'react-reveal/Fade';
+import '../shop.css';
 
 import plant1 from '../assets/images/plant1.jpg';
 import plant2 from '../assets/images/plant2.jpg';
@@ -25,96 +25,161 @@ import plant20 from '../assets/images/plant20.jpg';
 
 function Shop() {
     return (
-        <main>
-            <div id = "shop-container" className="container">
+        <main id="shopPage">
+            <div className="text-center mt-5 shop-offer">
+                <p>Interested in Purchasing a Plant Today?</p>
+                <p>Head over to the Contact page to schedule a pick up time!</p>
+            </div>
+
+            <div id="shop-container" className="container">
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant1}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant2}></img>
-                    </div>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant1}></img>
+                            <p className="plant-name">Tulip - $14.99</p>
+                        </div>
+                    </Fade>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant2}></img>
+                            <p className="plant-name">Jade Pothos - $19.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant3}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant4}></img>
-                    </div>
-                </div>
-                
-                <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant5}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant6}></img>
-                    </div>
+                    <Fade left>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant3}></img>
+                            <p className="plant-name">Scindapsus Picuts - $17.99</p>
+                        </div>
+                    </Fade>
+                    <Fade right>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant4}></img>
+                            <p className="plant-name">String of Heart - $21.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant7}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant8}></img>
-                    </div>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant5}></img>
+                            <p className="plant-name">Philodendron Birkin - $25.99</p>
+                        </div>
+                    </Fade>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant6}></img>
+                            <p className="plant-name">Red Cherry Philodendron - $20.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant9}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant10}></img>
-                    </div>
+                    <Fade left>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant7}></img>
+                            <p className="plant-name">Birds Nest Fern - $10.99</p>
+                        </div>
+                    </Fade>
+                    <Fade right>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant8}></img>
+                            <p className="plant-name">Jade Pothos - $19.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant11}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant12}></img>
-                    </div>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant9}></img>
+                            <p className="plant-name">Bonsai - $22.99</p>
+                        </div>
+                    </Fade>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant10}></img>
+                            <p className="plant-name">Yellow Daisy - $5.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant13}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant14}></img>
-                    </div>
+                    <Fade left>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant11}></img>
+                            <p className="plant-name">London Cactus - $15.99</p>
+                        </div>
+                    </Fade>
+                    <Fade right>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant12}></img>
+                            <p className="plant-name">Succulent - $12.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant15}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant16}></img>
-                    </div>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant13}></img>
+                            <p className="plant-name">Succulent - $15.99</p>
+                        </div>
+                    </Fade>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant14}></img>
+                            <p className="plant-name">Monstera Minima - $18.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant17}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant18}></img>
-                    </div>
+                    <Fade left>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant15}></img>
+                            <p className="plant-name">Cast Iron Plant - $29.99</p>
+                        </div>
+                    </Fade>
+                    <Fade right>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant16}></img>
+                            <p className="plant-name">Philodendron Scandens - $25.99</p>
+                        </div>
+                    </Fade>
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant19}></img>
-                    </div>
-                    <div className="col-md-6 plant-images-container">
-                        <img className = "plant-images" src={plant20}></img>
-                    </div>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant17}></img>
+                            <p className="plant-name">Golden Pothos - $25.99</p>
+                        </div>
+                    </Fade>
+                    <Fade top>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant18}></img>
+                            <p className="plant-name">Scindapsus Pictus - $22.99</p>
+                        </div>
+                    </Fade>
+                </div>
+
+                <div className="row">
+                    <Fade left>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant19}></img>
+                            <p className="plant-name">Schefflera - $10.99</p>
+                        </div>
+                    </Fade>
+                    <Fade right>
+                        <div className="col-md-6 plant-images-container">
+                            <img className="plant-images" src={plant20}></img>
+                            <p className="plant-name">Schefflera - $19.99</p>
+                        </div>
+                    </Fade>
                 </div>
             </div>
         </main>
