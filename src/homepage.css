@@ -13,6 +13,11 @@
 .grid-item--width3 { width: 480px; }
 .grid-item--width4 { width: 640px; }
 
+.gallery-title {
+  font-family: 'Noto Serif Display', serif; 
+  font-size: 25px; 
+  font-weight: bold;
+}
 
 .plant-name {
   font-style: italic;

@@ -25,7 +25,7 @@ select {
 }
 
 .submit-btn {
-    background-color: rgba(216, 191, 216, 0.5);
+    background-color: #40798c8b;
 }
 
 .call-us {
@@ -34,13 +34,36 @@ select {
     padding-left: 10px; 
     padding-bottom: 20px; 
     margin-bottom: 10px; 
-    background-color: rgba(216, 191, 216, 0.3);
-    border-radius: 10px 10px 10px 10px;
+    /* background-color: #17364026; */
+    /* border-radius: 10px 10px 10px 10px; */
     /* border-style: solid; 
     border-width: 1px;  */
 }
 
 .call-us a {
     text-decoration: none;
-    color:rgb(125, 81, 125)
+    color:#254651
+}
+
+.order-form {
+    width: 50%; 
+    margin: auto
+}
+
+@media (max-width: 767.98px) {
+    .order-form {
+        width: 70%; 
+    } 
+}
+
+@media (max-width: 575.98px) {
+    .order-form {
+        width: 70%; 
+    } 
+}
+
+@media (max-width: 375.98px) {
+    .order-form {
+        width: 80%; 
+    }    
 }
